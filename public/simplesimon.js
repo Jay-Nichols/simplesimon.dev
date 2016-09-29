@@ -118,7 +118,7 @@
 			"This game is over, but for you things are just beginning.", 
 			"Have I told you that you look good today? Press Start to play again.",
 			"You haven't failed; you've just broken the rules. And that's okay.",
-			"You're mom still loves you. Play again?",
+			"Your mom still loves you. Play again?",
 			"I'm sorry that you lost. Hugging a puppy will make you feel better.",
 			"You're still a child of God. (Did I go to far on this one?)",
 			"People dig you. Maybe not your Simple Simon skills..."
@@ -159,8 +159,8 @@
 
 	$('button').click(function() {
 
-	gamesChoice = [];
-	playersMatch = [];
+	gamesChoice;
+	playersMatch;
 
 	message.html('');
 		
