@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple Simon</title>
+		<link rel="stylesheet" href="/simplesimon2.css">
+	<body>
+		<div id="wrapper">
+			<h1>Simple Simon</h1>
+			<div id="squareDiv">
+				<div class="square" id="red" data-value="0"></div>
+				<div class="square" id="blue" data-value="1"></div>
+				<div class="square" id="yellow" data-value="2"></div>
+				<div class="square" id="green" data-value="3"></div>
+			</div>
+			<div id="gameInfo">
+				<div readonly id="scoreTextArea" rows="3" cols="40">
+				Level: <span id="levelNumber">0</span>
+				<p id="message"> Click Start</p>
+				</div>
+			</div>
+			<div>
+				<button id="startGame">Start Game</button>
+			</div>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="/simplesimon2.js"></script>
+	</body>
+</html>
